@@ -1,0 +1,1 @@
+var e=e=>e.replace(/\D/g,``);function t(t,n){return`https://wa.me/${e(t)}${n?`?text=${encodeURIComponent(n)}`:``}`}export{t};
