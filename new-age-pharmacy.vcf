@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:New Age Pharmacy
+ORG:New Age Pharmacy
+TEL;TYPE=WORK,VOICE:+17182531700
+TEL;TYPE=WORK,FAX:+17182538777
+EMAIL;TYPE=WORK:newagepharmacy@verizon.net
+ADR;TYPE=WORK:;;2918 Avenue J;Brooklyn;NY;11210;USA
+URL:https://newagepharm.com/
+END:VCARD
