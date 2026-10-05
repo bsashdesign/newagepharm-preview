@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="New Age">
+  <rect width="120" height="120" rx="24" fill="#ffffff"/>
+  <g fill="#13233f" font-family="Archivo, 'Arial Black', sans-serif" font-weight="800" font-size="36" text-anchor="middle" letter-spacing="1" style="font-stretch: 125%">
+    <text x="60" y="54">NEW</text>
+    <text x="60" y="94">AGE</text>
+  </g>
+  <rect x="24" y="61" width="72" height="5.5" rx="1.5" fill="#0070f3"/>
+</svg>
