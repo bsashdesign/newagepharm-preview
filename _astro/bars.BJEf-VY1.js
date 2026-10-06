@@ -1,1 +1,0 @@
-function e({y:e,max:t,top:n,set:r,paused:i}){let a=e(),o=a,s=0,c=!1,l=()=>{if(c=!1,i?.())return;let l=Math.min(Math.max(0,e()),t());if(l<=n()){r(!1),a=o=l;return}if(l>=t()-2&&l<a)return;let u=l-a;if(a=l,!u)return;let d=Math.sign(u);d!==s&&(s=d,o=l-u);let f=Math.abs(l-o);s>0&&f>24?r(!0):s<0&&f>8&&r(!1)};return()=>{c||(c=!0,requestAnimationFrame(l))}}export{e as t};
