@@ -1,0 +1,29 @@
+# Cloudflare Workers static assets: 301s for pages the simple go-live took out (Ben, 2026-11-25),
+# and the old Webflow site's addresses, so nothing that worked before ends in a 404.
+# GitHub Pages (the preview) ignores this file. Tag pre-simple-go-live has the removed pages.
+
+# The Medication directory and its lists: the home page.
+/medications.json  /  301
+/medications  /  301
+/medications/*  /  301
+/medicines  /  301
+/medicines/*  /  301
+
+# The product pages: the plain Products list.
+/shelf.json  /products/  301
+/shelves  /products/  301
+/shelves/*  /products/  301
+/equipment  /products/  301
+/equipment/*  /products/  301
+/by-need  /products/  301
+/by-need/*  /products/  301
+/featured  /products/  301
+/featured/*  /products/  301
+/shop  /products/  301
+/shop/*  /products/  301
+
+# The old Webflow site's pages that have new addresses.
+/about-us  /about/  301
+/privacy-policy  /privacy/  301
+/cookie-settings  /privacy/  301
+/search  /  301
